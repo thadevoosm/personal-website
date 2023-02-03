@@ -176,4 +176,7 @@ body {
   z-index: 1;
   position: relative;
 }
+li{
+   display:none;
+  }
 }
