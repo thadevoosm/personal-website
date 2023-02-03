@@ -142,18 +142,19 @@ body {
 }
 #close {
   position: absolute;
-  top: 5px;
+  top: 20px;
   right:0;
-  width: 50%;
-  height: 50%;
+  width: 50px;
+  height: 50px;
   opacity: .30;
 }
 
 
 .box {
-  width: 33.3333%;
-  height: 50%;
-  float: right;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
 }
 
 .icon {
