@@ -38,16 +38,20 @@ ul{
   float: right;
   top: 10%;
   list-style-type: none;
-  padding: 0;
-  margin: 0 5 0 5;
+  margin-top: 5vh;
+  margin-right: 2vh;
   opacity: 0.5;
 }
 li{
   margin: 0 5px;
+  color: gray;
+  font-size:x-large;
+  font-weight: 900;
+  padding: 10px;
 }
 a{
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: gray;
 
 }
 #particles-js
@@ -85,9 +89,6 @@ h1{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-body {
-  
 }
 .container {
   height: 100vh;
@@ -134,7 +135,7 @@ body {
   }
   .container p {
     font-size: 16px;
-    padding: 0.5rem;
+    padding: 20px;
     font-weight: bold;
     letter-spacing: 0.1rem;
     text-align: center;
@@ -142,6 +143,7 @@ body {
 }
 #close {
   position: absolute;
+  padding: 0%;
   top: 20px;
   right:0;
   width: 50px;
@@ -173,10 +175,28 @@ body {
 #b1 { background: #000000; }
 .icon { stroke: #ffffff; opacity: .50; }
 #front{
-  z-index: 1;
+  z-index: 2;
   position: relative;
 }
+#one{
+z-index: 1;
+}
+#two{
+  display:none;
+}
+ul{
+display: inline-block;
+margin-top: 10vh;
+}
 li{
-   display: none;
-  }
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 10px;
+  margin-top: 20%;
+  font-weight: 900;
+  color: gray;
+}
+a{
+  color: gray;
+}
 }
