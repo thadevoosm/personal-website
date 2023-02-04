@@ -12,3 +12,9 @@ var lis = document.getElementById("one");
         }
     }
  });
+
+ function clickDiv() {
+    for (var i = 0; i < 2; i++) {
+      document.getElementById("close").click();
+    }
+  }
