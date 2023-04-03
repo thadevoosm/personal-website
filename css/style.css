@@ -171,7 +171,7 @@ body
   overflow: hidden;
   
   /* make it look decent enough */
-  background: #232323;
+ /* background: #232323; */
   color: #cdcdcd;
   font-family: "Avenir Next", "Avenir", sans-serif;
 }
