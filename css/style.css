@@ -38,12 +38,12 @@ body {
 }
 
 body.support--webp {
-    background: url("/personal-website/image/background.jpeg") center center #101312;
+    background: url("/image/background.jpeg") center center #101312;
     background-size: cover
 }
 
 div.overlay {
-    background: url("/personal-website/image/overlay.png") center center;
+    background: url("/image/overlay.png") center center;
     background-size: cover
 }
 
@@ -52,7 +52,7 @@ h1 span,main {
 }
 
 body.support--webp div.overlay {
-    background: url("/personal-website/image/overlay.png") center center;
+    background: url("/image/overlay.png") center center;
     background-size: cover
 }
 
