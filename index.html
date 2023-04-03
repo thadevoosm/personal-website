@@ -14,9 +14,41 @@
    <link rel="stylesheet" href="css/style.css"> 
 </head>
 <body>
+   <nav role="navigation">
+   <div id="menuToggle">
+     <!--
+     A fake / hidden checkbox is used as click reciever,
+     so you can use the :checked selector on it.
+     -->
+     <input type="checkbox" />
+     
+     <!--
+     Some spans to act as a hamburger.
+     
+     They are acting like a real hamburger,
+     not that McDonalds stuff.
+     -->
+     <span></span>
+     <span></span>
+     <span></span>
+     
+     <!--
+     Too bad the menu has to be inside of the button
+     but hey, it's pure CSS magic.
+     -->
+     <ul id="menu">
+       <a href="#"><li>Home</li></a>
+       <a href="#"><li>About</li></a>
+       <a href="https://linktr.ee/thadevoos" target="_blank"><li>linktree</li></a>
+       <a href="/BRAND NEW/docs/Business Resume.pdf" target="_blank"><li>Resume</li></a>
+       <a href="https://wa.link/zmg9su" target="_blank"><li>Wanna talk Business?</li></a>
+     </ul>
+   </div>
+ </nav>
    <canvas></canvas>
    <div class="overlay"></div>
    <main>
+      
    <h1>Thadevoos</h1>
    <p>Looking for a front-end developer, UX designer, and visual designer who can deliver exceptional design and development solutions?<br> Look no further. I have a proven track record of delivering cutting-edge designs and innovative web solutions that exceed expectations.<br><br>Interested in UX/UI, Front-end development, Visual design  and everything design  related.</p>
    </main>
@@ -29,7 +61,8 @@
    <a href="https://johnnoy.nl">John Noy</a>
    <a href="https://noortjenoy.nl">Noortje Noy</a>
    </div>
+   
    </footer>
-   <script src="js/scrpit.js" type="text/javascript" defer></script>
+   <script src="js/scrpit.js" type="text/javascript" ></script>
 </body>
 </html>
