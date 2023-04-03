@@ -206,3 +206,12 @@ function _createClass(t, i, e) {
         e()
     }(t, i)
 }(document, window);
+
+document.title = "Thadevoos | Website";
+window.addEventListener("blur", function() {
+  document.title = "Hey, come back!";
+});
+
+window.addEventListener("focus", function() {
+  document.title = "Thadevoos | Website";
+});
